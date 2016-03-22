@@ -63,10 +63,10 @@ local function pre_process(msg)
     local data = load_data(_config.moderation.data)
     local group = msg.to.id
     local texttext = 'groups'
-    if not data[tostring(texttext)][tostring(msg.to.id)] and not is_sudo(msg) then -- Check if this group is one of my groups or not
-    chat_del_user('chat#id'..msg.to.id,'user#id'..our_id,ok_cb,false)
-    return 
-    end
+    -- if not data[tostring(texttext)][tostring(msg.to.id)] and not is_sudo(msg) then -- Check if this group is one of my groups or not
+    -- chat_del_user('chat#id'..msg.to.id,'user#id'..our_id,ok_cb,false)
+    -- return 
+    -- end
     local user_id = msg.from.id
     local chat_id = msg.to.id
     local banned = is_banned(user_id, chat_id)

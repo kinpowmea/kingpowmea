@@ -259,10 +259,11 @@ function create_config( )
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[KINGPOWER V1
-    An Advanced Anti Spam Bot Forked On Sbssbot
+    An powerful Anti Spam Bot 
     Special Thanks To:
+    mohammad1234
     Admin:
-    @KINGPOWER_ADMIN
+    @kingpower_admin_1
 ]],
     help_text_realm = [[
 See Patterns In Github

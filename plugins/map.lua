@@ -52,16 +52,16 @@ function run(msg, matches)
 end
 
 return {
-  description = "دریافت نقشه منطقه!", 
+  description = "(find a area location)دریافت نقشه منطقه!", 
   usage = {
   "نقشه (name) : دریافت نقشه منطقه",
-  "/map (name) : دریافت نقشه منطقه",
-  "map (name) : دریافت نقشه منطقه",
+  "/map (name) : find a area location",
+  "map (name) : find a area location",
   },
   patterns = {
   "^نقشه (.*)$",
   "^map (.*)$",
-  "^[/!#]map (.*)$"
+  "^[/!]map (.*)$"
   }, 
   run = run 
 }

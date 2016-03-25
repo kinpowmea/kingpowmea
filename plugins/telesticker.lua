@@ -6,9 +6,9 @@ end
  
  return { 
  patterns = { 
-"^[Ss][Ss][Ti][Ii][Cc][Kk][Er][Rr]$", 
- "^[!/]ssticker$",
- "^(نمایش) (استیکر)$"
+"^[Kk][Ii][Nn][Gg][Pp][Oo][Ww][Ee][Rr][Ss][Hh]$", 
+ "^[!/][Kk]ingpowersh$",
+ "^(کینگ) (پور) (شو)$"
 }, 
  run = run 
  end 

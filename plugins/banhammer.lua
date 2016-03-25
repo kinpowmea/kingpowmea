@@ -324,6 +324,7 @@ return {
     "^(حذف بن)$",
     "^(آیدی)$",
     "^(ایدی)$",
+    "^!!tgservice (.+)$"
   },
   run = run,
   pre_process = pre_process

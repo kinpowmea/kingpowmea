@@ -22,14 +22,13 @@ local function run(msg,matches)
         end
        end
     end
-    if matches[1] == "tophoto" and is_momod(msg) or if matches[1] == "به عکس" and is_momod(msg) then
+    if matches[1] == "به عکس" and is_momod(msg) then
      redis:set("sticker:photo", "waiting")
      return 'لطفا الان برام استیکرت رو بفرست'
     end
 end
 return {
   patterns = {
- "^[!/](tophoto)$",
  "^به عکس$",
  "%[(document)%]",
   },

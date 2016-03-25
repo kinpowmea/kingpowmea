@@ -11,7 +11,7 @@ local function mathjs(exp)
   elseif c == 400 then
     text = b
   else
-    text = 'خطا!'
+    text = 'خطا (error)!'
   end
   return text
 end

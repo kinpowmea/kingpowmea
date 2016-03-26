@@ -40,7 +40,7 @@ local function get_filter(msg, var_name)
     if value == 'msg' then
       return 'if you say this word again i kick you'
     elseif value == 'kick' then
-      send_large_msg('chat#id'..msg.to.id, "you are not accepted the rules and i kicking you now
+      send_large_msg('chat#id'..msg.to.id, "you are not accepted the rules and i kicking you now")
       chat_del_user('chat#id'..msg.to.id, 'user#id'..msg.from.id, ok_cb, true)
     end
   end
@@ -55,7 +55,7 @@ local function get_filter_act(msg, var_name)
     elseif value == 'kick' then
       return 'you can not say this word and you are kicked from group becuse you say it'
     elseif value == 'none' then
-      return 'this word is deleted from filter list
+      return 'this word is deleted from filter list'
     end
   end
 end

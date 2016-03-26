@@ -1,3 +1,7 @@
+do
+function run(msg, matches)
+  return [[ 
+
   Commands list :
 
 !kick [username|id]
@@ -8,9 +12,6 @@ You can also by reply
 〰〰〰〰〰〰
 !unban [id]
 You can also by reply
-〰〰〰〰〰〰
-!inviter
-you can invite inviter bot to the group
 〰〰〰〰〰〰
 !insudo
 you can invite sudo to the group
@@ -102,9 +103,6 @@ ok : send sticker open
 !tagall [text]
 tag users && send your message
 〰〰〰〰〰〰
-BossTG
-send about BossTG
-〰〰〰〰〰〰
 !all
 see all about group
 〰〰〰〰〰〰
@@ -129,10 +127,65 @@ set welcome to group
 set welcome to pm (pv)
 set welcome disable
 〰〰〰〰〰〰
+!calc (s.th)
+calculation math
+〰〰〰〰〰〰
+!echo (s.th)
+bot say s.th that you typed
+〰〰〰〰〰〰
+!feedback (s.th)
+send a feedback to admin
+〰〰〰〰〰〰
+!fliter + word
+if s.one say it bot kick him
+!filter > word
+if s.one say it bot warns him
+!filter - word
+remove a word from filterlist
+!filterlist
+you can see a filter list
+〰〰〰〰〰〰
+!info
+information about you and members
+〰〰〰〰〰〰
+!tosticker
+convert a photo to sticker
+〰〰〰〰〰〰
+!tophoto
+conert a sticker to photo
+〰〰〰〰〰〰
+![Kk]ingpowersh
+show the stickers and photos that converted
+〰〰〰〰〰〰
+!map [area]
+you can see that areas location
+〰〰〰〰〰〰
+!me
+you can see who are you in group?[sudo,admin,owner,moderatior,member]
+〰〰〰〰〰〰
+!t2i [text]
+convert a text to image
+〰〰〰〰〰〰
+!voice [text]
+convert a text to a voice
+〰〰〰〰〰〰
+!web [url]
+take a webshot from a site(your site should to be start https or http
+〰〰〰〰〰〰
 **U can use "/" & "!"
 〰〰〰〰〰〰
 *Only owner & mods can add bots to group
 〰〰〰〰〰〰
-*Only moderators & owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about,settings commands
+*Only moderators & owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about,settings,filterword commands
 〰〰〰〰〰〰
-*Only owner can use res,setowner,promote,demote,log commands 
+*Only owner can use res,setowner,promote,demote,log commands
+
+  ]]
+end
+
+return {
+  description = "kingpower",
+  patterns = {"^[!/%$+=.-*&][Hh]elpen$"},
+  run = run 
+}
+end

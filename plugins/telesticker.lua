@@ -10,5 +10,6 @@ end
  "^[!/][Kk]ingpowersh$",
  "^(کینگ) (پور) (شو)$"
 }, 
- run = run 
+ run = run
+ }
  end 

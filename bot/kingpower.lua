@@ -223,7 +223,12 @@ function create_config( )
     "feedback",
     "filterword",
     "filterworden",
+    "fosh",
     "get",
+    "googleimg",
+    "googleimgen",
+    "googlesh",
+    "googleshen",
     "helpen",
     "img2sticker",
     "img2stickeren",
@@ -249,6 +254,10 @@ function create_config( )
     "mywaien",
     "owners",
     "plugins",
+    "quran",
+    "quranen",
+    "robot",
+    "roboten",
     "s2a",
     "say",
     "send",
@@ -265,7 +274,7 @@ function create_config( )
     sudo_users = {144616352},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[KINGPOWER V2
+    about_text = [[KINGPOWER V2.1
     An powerful Anti Spam Bot 
     Special Thanks To:
     mohammad1234

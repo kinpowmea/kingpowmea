@@ -157,6 +157,19 @@ conert a sticker to photo
 ![Kk]ingpowersh
 show the stickers and photos that converted
 〰〰〰〰〰〰
+!src [s.th]
+search something of you entered in google
+〰〰〰〰〰〰
+!img [s.th]
+search something of you entered in image google
+〰〰〰〰〰〰
+!quran
+show the list of the qurans
+!sura (number)
+or
+!write (number)
+read the number of quran 
+〰〰〰〰〰〰
 !map [area]
 you can see that areas location
 〰〰〰〰〰〰

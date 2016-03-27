@@ -8,7 +8,7 @@
 * **#Be Your Self**
 * **#Do it Your Self**
 * **new update 2.0:**
-added english language in this bot
- added new plugins
- its powerfuled from xy bots and gifs
- some bugs fixed
+*added english language in this bot
+*added new plugins
+*its powerfuled from xy bots and gifs
+*some bugs fixed

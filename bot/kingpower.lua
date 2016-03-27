@@ -223,7 +223,6 @@ function create_config( )
     "feedback",
     "filterword",
     "filterworden",
-    "fosh",
     "get",
     "googleimg",
     "googleimgen",

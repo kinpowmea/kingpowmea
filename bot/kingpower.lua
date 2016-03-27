@@ -236,6 +236,7 @@ function create_config( )
     "invite",
     "isup",
     "leave_ban",
+    "linkpv",
     "lock_badw",
     "lock_english",
     "lock_join",

@@ -270,18 +270,20 @@ function create_config( )
     "webshot",
     "welcome"
     },
-    sudo_users = {144616352},--Sudo users
+    sudo_users = {144616352,181843952},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[KINGPOWER V2.1
     An powerful Anti Spam Bot 
     Special Thanks To:
     mohammad1234
+    AH2002
     Admin:
     @kingpower_admin_1
+    @AH2002
 ]],
     help_text_realm = [[
-See Patterns In Github
+   !help
 ]],
     help_text = [[
 

@@ -1,4 +1,4 @@
-#KingPower 2.0 version
+#KingPower 3.5 version
 ##An Advanced Adminastortion bot based on seed
 * **Fa & ENG**
 * **Don't Forget stars!**
@@ -12,3 +12,6 @@
 *added new plugins
 *its powerfuled from xy bots and gifs
 *some bugs fixed
+* **new update 3.5**:
+* some big bugs fixed
+* added new plugins

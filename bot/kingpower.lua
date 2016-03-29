@@ -233,7 +233,6 @@ function create_config( )
     "img2stickeren",
     "info",
     "ingroup",
-    "ingroupen",
     "inpm",
     "inrealm",
     "insudo",
@@ -273,7 +272,7 @@ function create_config( )
     sudo_users = {144616352,181843952},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[KINGPOWER V2.1
+    about_text = [[KINGPOWER V3.5
     An powerful Anti Spam Bot 
     Special Thanks To:
     mohammad1234

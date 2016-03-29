@@ -1,4 +1,4 @@
-function run_sh(msg
+function run_sh(msg)
      name = get_name(msg)
      text = ''
      -- if config.sh_enabled == false then 

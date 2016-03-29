@@ -16,13 +16,13 @@ local function enable_channel(receiver, to_id)
 	end
 
 	if _config.disabled_channels[receiver] == nil then
-		return lang_text(to_id, 'botOn')..' 😏'
+		return 'robot is online'
 	end
 	
 	_config.disabled_channels[receiver] = false
 
 	save_config()
-	return lang_text(to_id, 'botOn')..' 😏'
+	return 'robot is online'
 end
 
 local function disable_channel(receiver, to_id)
@@ -33,7 +33,7 @@ local function disable_channel(receiver, to_id)
 	_config.disabled_channels[receiver] = true
 
 	save_config()
-	return lang_text(to_id, 'botOff')..' 🚀'
+	return 'robot is offline'
 end
 
 local function pre_process(msg)
@@ -65,7 +65,7 @@ local function run(msg, matches)
 			return disable_channel(receiver, msg.to.id)
 		end
 	else
-		return '🚫 '..lang_text(msg.to.id, 'require_sudo')
+		return 'just it is for sudo'
 	end
 end
 

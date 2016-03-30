@@ -4,7 +4,7 @@ package.cpath = package.cpath .. ';.luarocks/lib/lua/5.2/?.so'
 
 require("./bot/utils")
 
-VERSION = '3'
+VERSION = '2.2'
 
 -- This function is called when tg receive a msg
 function on_msg_receive (msg)
@@ -280,8 +280,9 @@ function create_config( )
     sudo_users = {144616352,181843952},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[KINGPOWER V3.5
+    about_text = [[KINGPOWER V2.2
     An powerful Anti Spam Bot 
+    it is powerful of gif,xy and image changers and more spamers
     Special Thanks To:
     mohammad1234
     AH2002
@@ -342,7 +343,7 @@ __________________________
 تبدیل (متن) : تبدیل متن مورد انتخابی شما به عکس
 جستجو (متن) : جستجو متن شما در گوگل
 جستجو عکس (متن) : جستجو. متن شما در قسمت عکس گوگل
-اذان (شهر) : نمایش اوقات شهری شهر انتخاب شده توسط شما
+اوقات شرقی (شهر) : نمایش اوقات شهری شهر انتخاب شده توسط شما
 آب و هوا (شهر) : نمایش آب و هوا آن شهر
 آپارات (متن) : جستجو در آپارات
 به استیکر : تبدیل عکس به استیکر

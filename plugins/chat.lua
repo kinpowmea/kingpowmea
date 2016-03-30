@@ -62,7 +62,7 @@ end
 if msg.text == "mohammad1234" then
   return "چیکار داری بابامو؟"
 end
-if msg.text == "m1234" then
+if msg.text == "AH" then
   return "چیکار داری بابامو؟"
 end
 end

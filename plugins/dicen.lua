@@ -103,21 +103,27 @@ return {
 
   usage = {
 
-    "ترجمه text. Translate the text to English.",
+    "!translate text. Translate the text to English.",
 
-    "ترجمه target_lang text.",
+    "!translate target_lang text.",
 
-    "ترجمه source,target text",
+    "!translate source,target text",
 
   },
 
   patterns = {
 
-    "^ترجمه ([%w] ),([%a] ) (. )",
+    "^[!/$&-= :*.%#?@]translate ([%w] ),([%a] ) (. )",
 
-    "^ترجمه ([%w] ) (. )",
+    "^[!/$&-= :*.%#?@]translate ([%w] ) (. )",
 
-    "^ترجمه (. )",
+    "^[!/$&-= :*.%#?@]translate (. )",
+
+    "^translate ([%w] ),([%a] ) (. )",
+
+    "^translate ([%w] ) (. )",
+
+    "^translate (. )",
 
   }, 
 

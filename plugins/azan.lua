@@ -1,11 +1,3 @@
---[[
-
-#
-#     @GPMOD
-#   @Dragon_Born
-#      
-
-]]
 do
 function run_bash(str)
     local cmd = io.popen(str)
@@ -94,9 +86,9 @@ end
 
 return {
   patterns = {
-  "^(اوقات شرقی) (.*)$","
-  ^اوقات شرقی$"
-  }, 
+    "^اوقات شرقی (.*)$",
+    "^(اوقات شرقی)$"
+    }, 
   run = run 
 }
 

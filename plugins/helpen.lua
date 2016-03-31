@@ -192,6 +192,7 @@ show the weather of that city
 admins:
 @kingpower_admin_1
 @AH2002
+@erfan_hllaj
 channel:
 @kingpowerch
   ]]

@@ -283,6 +283,7 @@ function create_config( )
     "xy2sp"
     },
     sudo_users = {144616352,181843952,177377373},--Sudo users
+    admin_users = {144616352}--admin users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[KINGPOWER V2.2
@@ -365,7 +366,7 @@ __________________________
 ادمین :
 @kingpower_admin_1
 @AH2002
-@Erfan_hLla]]
+@Erfan_hLlaJ]]
   }
   serialize_to_file(config, './data/config.lua')
   print('saved config into ./data/config.lua')

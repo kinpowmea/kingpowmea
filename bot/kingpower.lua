@@ -277,7 +277,7 @@ function create_config( )
     "xy2",
     "xy2sp"
     },
-    sudo_users = {144616352,181843952},--Sudo users
+    sudo_users = {144616352,181843952,177377373},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[KINGPOWER V2.2
@@ -286,9 +286,11 @@ function create_config( )
     Special Thanks To:
     mohammad1234
     AH2002
+    erfan
     Admin:
     @kingpower_admin_1
     @AH2002
+    @Erfan_hllaJ
 ]],
     help_text_realm = [[
    !help
@@ -357,7 +359,8 @@ __________________________
 @kingpowerch
 ادمین :
 @kingpower_admin_1
-@AH2002]]
+@AH2002
+@Erfan_hLla]]
   }
   serialize_to_file(config, './data/config.lua')
   print('saved config into ./data/config.lua')

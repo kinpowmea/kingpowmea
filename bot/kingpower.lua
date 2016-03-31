@@ -283,7 +283,7 @@ function create_config( )
     "xy2sp"
     },
     sudo_users = {144616352,181843952,177377373},--Sudo users
-    admin_users = {144616352}--admin users
+    admin_users = {144616352},--admin users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[KINGPOWER V2.2
